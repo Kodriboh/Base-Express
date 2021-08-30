@@ -3,6 +3,7 @@
 require('dotenv').config();
 
 const port = process.env.PORT || 3000;
+const appName = process.env.APP_NAME;
 
 const path = require('path');
 const express = require('express');
@@ -15,5 +16,6 @@ app.set('views', path.join('./', 'views'));
 
 module.exports = {
     port: port, 
-    app: app 
+    app: app ,
+    appName: appName
 }
