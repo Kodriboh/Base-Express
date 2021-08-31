@@ -1,6 +1,8 @@
 'use strict';
 
-const { port, app, appName } = require('./resources/bootstrap/app');
+require('./config/global');
+
+const { port, app, appName } = include('/resources/bootstrap/app');
 
 app.get('/', (req, res) => {
     res.render('index', { appName });

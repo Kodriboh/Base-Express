@@ -2,8 +2,7 @@
 
 require('dotenv').config();
 
-const port = process.env.PORT || 3000;
-const appName = process.env.APP_NAME;
+const { appName, port, debug, timezone, locale} = include('/config/app');
 
 const path = require('path');
 const express = require('express');
