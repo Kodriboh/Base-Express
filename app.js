@@ -2,14 +2,10 @@
 
 require('./config/global');
 
-const { port, app, appName } = include('/resources/bootstrap/app');
+const { port, app } = include('/resources/bootstrap/app');
 
-app.get('/', (req, res) => {
-    res.render('index', { appName });
-});
+const pageRoutes = include('/routes/web/pageRoutes.js');
 
-app.get('*', (req, res) => {
-    res.status(404).render('404', { appName });
-});
+app.use(pageRoutes);
 
 app.listen(port, () => console.log(`Listening on port: ${port}`));
