@@ -7,4 +7,26 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-size: 1.6rem; }
+  font-size: 2rem; }
+
+nav {
+  background-color: #82D4BB; }
+
+.nav-items li a {
+  font-size: 2rem;
+  margin-right: 2.5rem;
+  color: #fff; }
+
+.nav-items li a:hover {
+  color: #82C09A;
+  background-color: #829298; }
+
+nav #logo {
+  font-size: 3rem;
+  margin-left: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+nav #logo:hover {
+  color: #82C09A;
+  background-color: #829298; }

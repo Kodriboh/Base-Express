@@ -3,7 +3,6 @@
 const { appName } = include('/resources/bootstrap/app');
 
 const express = require('express');
-const page = include('/models/page');
 const router = express.Router();
 
 router.get('/', (req, res) => {

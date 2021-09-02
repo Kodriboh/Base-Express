@@ -1,0 +1,27 @@
+nav {
+    background-color: $primary-color;
+}
+
+.nav-items li a {
+    font-size: 2rem;
+    margin-right: 2.5rem;
+    color: #fff;
+}
+
+.nav-items li a:hover {
+    color: $secondary-color;
+    background-color: $quaternary-color;
+}
+
+nav #logo {
+    font-size: 3rem;
+    margin-left: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+nav #logo:hover {
+    color: $secondary-color;
+    background-color: $quaternary-color;
+}
+
