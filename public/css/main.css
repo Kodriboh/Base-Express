@@ -24,9 +24,18 @@ nav {
 nav #logo {
   font-size: 3rem;
   margin-left: 3rem;
-  padding-left: 5rem;
   padding-right: 5rem; }
 
-nav #logo:hover {
+.nav-content .tab a {
+  font-size: 2.2rem;
+  padding-top: .5rem;
+  padding-bottom: .2rem; }
+
+.nav-content .tab a:hover {
   color: #82C09A;
   background-color: #829298; }
+
+.collapsible {
+  border: 0;
+  margin: .5rem 0 1rem 0;
+  box-shadow: none !important; }
